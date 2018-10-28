@@ -1,0 +1,120 @@
+/*
+  ========================================
+  General styles
+  ========================================
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background: whitesmoke;
+    background-image: url("../images/qbkls.png");
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 28px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+/*
+  ========================================
+  Navigation styles
+  ========================================
+*/
+
+.nav-bar {
+    margin-top: 0;
+    background: #fff;
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+
+.nav-items {
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 33%;
+    background: #4aaaa5;
+    padding: 0.75em;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+
+.nav-list {
+    width: 33%;
+    padding-top: 4%;
+    text-align: right;
+}
+
+.nav-list a {
+    text-decoration-line: none;
+    padding: 1em;
+}
+
+/* 
+  ========================================
+  Main section styles
+  ========================================
+*/
+
+.main-section {
+    box-sizing: border-box;
+    width: 970px;
+    margin: 2em auto;
+    padding: 1em 2em 2em 2em;
+    background: #fff;
+    border: 1px solid rgb(212, 212, 212);
+    line-height: 2;
+}
+
+.main-section h1 {
+    color: #4aaaa5;
+    border-bottom: 3px solid rgb(216, 216, 216);
+    padding-bottom: 1em;
+}
+
+#main-img {
+    float: left;
+    display: block;
+    margin-right: 1em;
+    border: 2px solid #4aaaa5;
+}
+
+/* 
+  ========================================
+  Footer styles
+  ========================================
+*/
+
+.footer {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2em 0 0 0;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 0.6em;
+}
