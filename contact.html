@@ -6,6 +6,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Sriracha" rel="stylesheet">
+        <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico"/>
         <title>Kenny Whitebloom: Contact</title>
     </head>
 
@@ -18,13 +20,13 @@
             <div class="nav-items">
                 <!-- Nav logo containing my name -->
                 <div class="logo">
-                    <h1>Kenny Whitebloom</h1>
+                    Kenny Whitebloom
                 </div>
            
                <!-- Nav links -->                   
                <nav class="nav-list">
-                    <a href="index.html">About</a> |
-                    <a href="portfolio.html">Portfolio</a> |
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
                     <a href="contact.html">Contact</a>
                 </nav>
             </div>
@@ -35,7 +37,26 @@
         <section class="main-section">
             <h1>Contact</h1>
 
-            <p>Form goes here</p>
+                <form>
+                    <div class="contact-form">
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name" placeholder="Martha Washington">
+                    </div>
+
+                    <div class="contact-form">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="marthawashington@notrealmail.com"><br>
+                    </div>
+
+                    <div class="contact-form">
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" placeholder="Your message goes here."></textarea><br>
+                    </div>
+
+                    <label for="button"></label>
+                    <button type="button" name="button" id="button">Submit</button>
+                </form>
+
         </section>
 
         <!-- Footer -->
